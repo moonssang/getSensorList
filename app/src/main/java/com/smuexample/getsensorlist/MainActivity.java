@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTxtSensors = findViewById(R.id.textSensors);
         // mTxtSensors.setMovementMethod(new ScrollingMovementMethod());
         button = findViewById(R.id.retrieve_sensors_btn);
+        button.setOnClickListener(this);
 
     }
 
